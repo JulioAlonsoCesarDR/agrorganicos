@@ -1,0 +1,23 @@
+{
+  "name": "agrorganicos",
+  "version": "0.0.0",
+  "authors": [
+    "axnotliztac10 <axnotliztac@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2",
+    "angular-bootstrap": "~0.12.1",
+    "angular": "1.3.13",
+    "angular-route": "~1.3.13"
+  }
+}

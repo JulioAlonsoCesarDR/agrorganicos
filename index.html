@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html ng-app="agrorganicos">
+	<head>
+		<meta property="og:image" content="http://zoraba.mx/assets/imgs/logoNew.png"/>
+		<meta property="og:title" content="Agrorganicos">
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<title>Agrorganicos</title>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="container">
+			<header ng-controller="headerController">
+				<div class="row socialMedia"></div>
+				<div class="row logoNav">
+					<div class="col-md-4 col-sm-4 col-xs-4" style="max-height: 79px;">
+						<agr-logo></agr-logo>
+						<b class="logoTitle">AGRORGANICOS<br>
+							<span>DEVOLVIENDO A LA TIERRA SUS NUTRIENTES</span>
+						</b>
+					</div>
+					<div class="col-md-8 col-sm-8 col-xs-8">
+
+						<ul class="nav nav-pills pull-right">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Nosotros</a></li>
+							<li><a href="#">Nuestra Historia</a></li>
+							<li><a href="#">Noticias & Tips</a></li>
+							<li>
+								<div class="container-social">
+							<button class="ribbon googleplus">
+								<span class="entypo-gplus"></span>
+							</button>
+							<button class="ribbon facebook">
+								<a href="https://www.facebook.com/agrorganicos"><span class="entypo-facebook"></span></a>
+							</button>
+							
+							<button class="ribbon twitter">
+								<span class="entypo-twitter"></span>
+							</button>
+						</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+
+			<section ng-view>
+				
+			</section>
+
+			<section>
+				<aside class="parners">
+					<p class="titleSeccion">Amigos de Agrorganicos</p>
+					<div class="row">
+						<img src="assets/imgs/partnersMock.jpg" style="width:100%" alt="">
+					</div>
+				</aside>
+			</section>
+		</div>
+					<footer>
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<ul>
+							<li>SITEMAP <br></li>
+							<li>-HOME</li>
+							<li>-NOSOTROS</li>
+							<li>-NUESTRA HISTORIA</li>
+						</ul>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<ul>
+							<li>METATAGS <br></li>
+							<li>-ABONO</li>
+							<li>-AGRORGANICO</li>
+							<li>-HUMUS</li>
+							<li>-AGRONOMIA</li>
+							<li>-AGRORGANICO</li>
+							<li>-METATAG</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul>
+							<li>INFORMACION Y CONTACTO <br> </li>
+							<li>TEL. 557789898</li>
+							<li>WWW.ZORABA.MX</li>
+							<li>DIRECCION DE LAS OFICINAS</li>
+							<li>Nº 240, MEX DF</li>
+							<li> <br> </li>
+							<li> <br> </li>
+							<li><img src="assets/imgs/socialFooter.jpg" alt=""></li>
+						</ul>
+					</div>
+				</div>
+				<div class="finalFooter">
+					<div class="row">
+						<div class="col-md-3"><br> COPYRIGHT AGRORGANICOS</div>
+						<div class="col-md-6"><span>AGRORGANICOS</span></div>
+						<div class="col-md-3"><br> CONTACTANOS</div>
+					</div>
+				</div>
+			</footer>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script>
+
+			$(window).load(function(){
+				$(".slider").animate({opacity:1});
+			});
+
+			$(window).scroll(function() {
+				if($(this).scrollTop() > 132) $(".socialMedia").addClass("socialDis");
+				else $(".socialMedia").stop().removeClass('socialDis');
+			});
+
+		</script>
+
+		<script src="app/app.js"></script>
+	</body>
+</html>
