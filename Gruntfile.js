@@ -27,7 +27,8 @@ module.exports = function (grunt) {
 	    			'./bower.json',
 	    			'./package.json',
 	    			'./README.md',
-	    			'./.htaccess'
+	    			'./.htaccess',
+	    			'./.git'
 	    		]
 	    	}
 	    }
