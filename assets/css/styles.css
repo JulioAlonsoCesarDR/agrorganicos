@@ -95,6 +95,7 @@ header
 
 .logoTitle
 {
+    line-height: 1px;
     color: #408860;
     position: relative;
     left: 86px;
@@ -108,6 +109,7 @@ header
 {
     font-size: 9px;
     color: #7c5033;
+    margin-left: 7px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
@@ -295,11 +297,11 @@ footer {
 .container-social{
   padding:0;
   margin: 0 auto;
-  width: 171px;
+  width: 100%;
   position: relative;
 top: -35px;
 margin-left: 20px;
-margin-right: 20px;
+margin-right: 10px;
 }
 
 [class*="entypo-"]:before {
@@ -314,12 +316,12 @@ margin-right: 20px;
   cursor: pointer;
   border: none;
   background: blue;
-  width: 70px;
+  width: 40px;
   height: 50px;
   position: relative;
   color: white;
   padding: 5px;
-  margin-right: -20px;
+  margin-right: -5px;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
@@ -339,16 +341,13 @@ margin-right: 20px;
   filter: drop-shadow(0 1px 1px rgba(0,0,0,.5));
 }
 .ribbon:hover{
-  margin-top: 20px;
-  color:white !important;
-}
-
-.ribbon a:hover{
+  zoom: 110%;
   color:white !important;
 }
 
 .ribbon a {
-    text-decoration: none;color: #3E3F42;
+    text-decoration: none;
+    color: inherit;
 }
 
 .container-social span{
@@ -362,8 +361,7 @@ margin-right: 20px;
     left: 0;
     width: 0; 
     height: 0; 
-    border-top: 33px solid blue; 
-    border-right: 70px solid transparent;
+    
 }
 .ribbon::after{
     content: '';
@@ -372,33 +370,55 @@ margin-right: 20px;
     right: 0;
     width: 0; 
     height: 0; 
-    border-top: 33px solid blue; 
-    border-left: 70px solid transparent;
+    
 }
 
 .facebook{
-  margin-top: 10px;
-  background: #408860; /*#3b5998*/
-  color: #3E3F42;
+  margin-top: 5px;
+  background: none; /*#3b5998*/
+color: #4e69a2 !important;
 z-index: 1000}
-  .facebook::after{border-top-color: #408860}
-  .facebook::before{border-top-color: #408860}
+.facebook a:hover{
+    color: #4e69a2 !important;
+}
+.facebook:hover{
+    color: #4e69a2 !important;
+}
+  .facebook::after{}
+  .facebook::before{}
   
   .googleplus{
       z-index: 999;
-      background:#408860;/*#c4302b*/
-      color: #3E3F42;
-  margin-top: 10px;}
-      .googleplus::after{border-top-color: #408860}
-      .googleplus::before{border-top-color: #408860}
+      background:none;/*#c4302b*/
+      color: #DD5B4E;
+  margin-top: 5px;}
+
+  .googleplus:hover{
+    color: #DD5B4E !important;
+  }
+    
+    .googleplus a:hover{
+    color: #DD5B4E !important;
+  }
+
+      .googleplus::after{}
+      .googleplus::before{}
 
       .twitter{
-          margin-top: 10px;
-          background: #408860;/*00a0d1*/
-          color: #3E3F42;
+          margin-top: 5px;
+          background: none;/*00a0d1*/
+          color: #337ab7;
       }
-      .twitter::after{border-top-color: #408860}
-      .twitter::before{border-top-color: #408860}
+
+      .twitter:hover{
+        color: #337ab7 !important;
+      }
+
+      .twitter a:hover{
+        color: #337ab7 !important;
+      }
+      .twitter::after{}
+      .twitter::before{}
       #author{
           font-family: 'Allura', cursive;
           position: absolute;

@@ -28,7 +28,8 @@ module.exports = function (grunt) {
 	    			'./package.json',
 	    			'./README.md',
 	    			'./.htaccess',
-	    			'./.git'
+	    			'./.git',
+	    			'./wp-api'
 	    		]
 	    	}
 	    }
