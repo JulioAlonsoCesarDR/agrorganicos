@@ -41,7 +41,7 @@ Deploy to server
 grunt ftp
 ```
 
-### Developing Flow
+### Development Flow
 
 ---
 
