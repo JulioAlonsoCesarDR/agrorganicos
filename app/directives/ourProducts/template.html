@@ -10,7 +10,7 @@
 </div>
 <div class="modal-body">
     
-<p>{{product.description}}</p>
+<p ng-bind-html="product.description | unsafe"></p>
     
 </div>
 <div class="modal-footer">

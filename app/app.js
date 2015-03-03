@@ -60,26 +60,20 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
             $scope.products = [
                 {
                     name: 'Humus',
-                    description: 'Es el resultado de la descomposición  de la materia orgánica por la 
-                    acción digestiva de la lombriz, alguno de sus beneficios son:',
+                    description: 'Es el resultado de la descomposición  de la materia orgánica por la acción digestiva de la lombriz, alguno de sus beneficios son: <ul><li>Elemn1</li><li>Elem 2</li></ul>',
                     color: 'green'
                 },
-                
                 {
                     name: 'Nopal',
-                    description: 'El consumo del nopal orgánico tiene más beneficios saludables ya que no usa pesticidas y 
-                    fertilizantes artificales en la producción',
+                    description: 'El consumo del nopal orgánico tiene más beneficios saludables ya que no usa pesticidas y fertilizantes artificales en la producción',
                     color: 'orange'
                 },
-
-                 {
+                {
                     name: 'Hortalia de temporada',
-                    description: 'el consumo de cultivos orgánicos tiene más beneficios saludables ya que no usa pesticidas y 
-                    fertilizantes artificales en la producción',
+                    description: 'el consumo de cultivos orgánicos tiene más beneficios saludables ya que no usa pesticidas y fertilizantes artificales en la producción',
                     color: 'red'
                 },
-
-                 {
+                {
                     name: 'Cursos',
                     description: 'consulta el calendarios de cusos',
                     color: 'blue'
@@ -111,4 +105,6 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
         templateUrl: 'app/directives/postsWidget/template.html',
         replace: true
     }
-});
+})
+
+.filter('unsafe', function($sce) { return $sce.trustAsHtml; });;
