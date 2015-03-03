@@ -1,21 +1,36 @@
-angular.module('agrorganicos', ['ngRoute'])
+angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
 
-.config(['$routeProvider', function ($routeProvider) {
+.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
 
-     $routeProvider.
-      when('/', {
-        templateUrl: 'app/views/home/home.html',
-        controller: 'homeController'
-      });
+   $routeProvider.
+   when('/', {
+    templateUrl: 'app/views/home/home.html',
+    controller: 'homeController'
+});
+
+   $locationProvider.html5Mode(true);
 
 }])
 
 .controller('headerController', function($scope){
-    
+
 })
 
 .controller('homeController', function($scope){
     console.log($scope);
+})
+
+.controller('ModalInstanceCtrl', function ($scope, $modalInstance, product) {
+
+    $scope.product = product;
+
+    $scope.ok = function () {
+        $modalInstance.close();
+    };
+
+    $scope.cancel = function () {
+        $modalInstance.dismiss('cancel');
+    };
 })
 
 .directive('agrLogo', function () {
@@ -38,7 +53,34 @@ angular.module('agrorganicos', ['ngRoute'])
     return {
         restrict: 'E',
         templateUrl: 'app/directives/ourProducts/template.html',
-        replace: true
+        replace: true,
+        controller: function ($scope, $modal) {
+
+            //colors: green orange red blue
+            $scope.products = [
+                {
+                    name: 'Humus',
+                    description: 'Text text text text text text text text text text text text text text text text text text text text',
+                    color: 'green'
+                }
+            ];
+
+            $scope.open = function (size) {
+
+                var modalInstance = $modal.open({
+                  templateUrl: 'myModalContent.html',
+                  controller: 'ModalInstanceCtrl',
+                  size: size,
+                  resolve: {
+                    product: function () {
+                      return $scope.product;
+                  }
+              }
+          });
+
+                modalInstance.result.then(function () {}, function () {});
+            };
+        }
     }
 })
 
