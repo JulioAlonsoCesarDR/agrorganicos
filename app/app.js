@@ -60,8 +60,29 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
             $scope.products = [
                 {
                     name: 'Humus',
-                    description: 'Text text text text text text text text text text text text text text text text text text text text',
+                    description: 'Es el resultado de la descomposición  de la materia orgánica por la 
+                    acción digestiva de la lombriz, alguno de sus beneficios son:',
                     color: 'green'
+                },
+                
+                {
+                    name: 'Nopal',
+                    description: 'El consumo del nopal orgánico tiene más beneficios saludables ya que no usa pesticidas y 
+                    fertilizantes artificales en la producción',
+                    color: 'orange'
+                },
+
+                 {
+                    name: 'Hortalia de temporada',
+                    description: 'el consumo de cultivos orgánicos tiene más beneficios saludables ya que no usa pesticidas y 
+                    fertilizantes artificales en la producción',
+                    color: 'red'
+                },
+
+                 {
+                    name: 'Cursos',
+                    description: 'consulta el calendarios de cusos',
+                    color: 'blue'
                 }
             ];
 
