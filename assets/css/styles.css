@@ -190,30 +190,37 @@ article .row {
 }
 
 .practicalUses .card:hover {
+    text-align: justify;
     background: #D5D5D5;
 }
 
 .practicalUses .card p {
+    text-align: justify;
     margin-top: 31px;
 }
 
 .green {
+    text-align: justify;
     background: #5c8762;
 }
 
 .green-color {
+    text-align: justify;
     color: #5c8762;
 }
 
 .orange {
+    text-align: justify;
     background: #dea64d;
 }
 
 .red {
+    text-align: justify;
     background: #dd5b4e;
 }
 
 .blue {
+    text-align: justify;
     background: #4aa3df;
 }
 
