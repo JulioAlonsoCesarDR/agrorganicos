@@ -173,7 +173,7 @@ article .row {
 .wrapProcess .square > .card:hover {
     width: 90%;
     height:: 90%;
-    background: #5F6FC4;
+    background: #537A58;
     margin-left: 5%;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -190,37 +190,37 @@ article .row {
 }
 
 .practicalUses .card:hover {
-    text-align: justify;
+    text-align: center;
     background: #D5D5D5;
 }
 
 .practicalUses .card p {
-    text-align: justify;
+    text-align: center;
     margin-top: 31px;
 }
 
 .green {
-    text-align: justify;
+    text-align: center;
     background: #5c8762;
 }
 
 .green-color {
-    text-align: justify;
+    text-align: center;
     color: #5c8762;
 }
 
 .orange {
-    text-align: justify;
+    text-align: center;
     background: #dea64d;
 }
 
 .red {
-    text-align: justify;
+    text-align: center;
     background: #dd5b4e;
 }
 
 .blue {
-    text-align: justify;
+    text-align: center;
     background: #4aa3df;
 }
 
