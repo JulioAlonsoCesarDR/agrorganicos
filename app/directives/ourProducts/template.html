@@ -1,6 +1,6 @@
 <div class="row wrapProcess">
-	<p class="titleSeccion">NUESTROS PRODUCTOS</p>
-	<div ng-repeat="product in products" class="col-md-3 col-sm-3 col-xs-3 square" no-click="$parent.product = product; open('md')">
+	<p ng-show="never" class="titleSeccion">NUESTROS PRODUCTOS</p>
+	<div ng-repeat="product in products" class="col-md-3 col-sm-6 col-xs-12 square" no-click="$parent.product = product; open('md')">
 		<img src="{{product.image}}" alt="">
 		<div class="card {{product.color}}">
 			<div class="wrap">{{product.name}}</div>

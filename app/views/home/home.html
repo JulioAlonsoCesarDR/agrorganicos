@@ -1,13 +1,13 @@
 <div class="row slider">
 <carousel interval="3000">
-      <slide ng-repeat="slide in slides" active="slide.active">
-        <img ng-src="{{slide.image}}" style="margin:auto;">
-        <div class="carousel-caption">
-          <h4>Slide {{$index}}</h4>
-          <p>{{slide.text}}</p>
-        </div>
-      </slide>
-    </carousel>
+	<slide ng-repeat="slide in slides" active="slide.active">
+		<img ng-src="{{slide.image}}" style="margin:auto;">
+		<div class="carousel-caption">
+			<h4>Slide {{$index}}</h4>
+			<p>{{slide.text}}</p>
+		</div>
+	</slide>
+</carousel>
 </div>
 <article>
 	<our-products></our-products>
