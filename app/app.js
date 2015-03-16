@@ -61,22 +61,26 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
                 {
                     name: 'Humus',
                     description: 'Es el resultado de la descomposición  de la materia orgánica por la acción digestiva de la lombriz, alguno de sus beneficios son: <ul><li>Mejora de la fertilidad del suelo</li><li>Retiene agua y minerales</li><li> Aporta nitrógeno, fósforo, potasio, magnesio, etc.</li><li>Potencializa el crecimiento de las plantas </li></ul>',
-                    color: 'green'
+                    color: '-green',
+                    image: 'assets/imgs/hummus_back.jpg'
                 },
                 {
                     name: 'Nopal',
                     description: 'El consumo del nopal orgánico tiene más beneficios saludables ya que no usa pesticidas y fertilizantes artificales en la producción <ul><li>Los productos orgánicos se diferencian por: </li><li>Mejor sabor y color</li><li> Aporta más minerales y vitaminas</li><li>Protege la salud de consumidores y productores </li></ul>',
-                    color: 'orange'
+                    color: '-orange',
+                    image: 'assets/imgs/nopal_back.jpg'
                 },
                 {
-                    name: 'Hortalia de temporada',
+                    name: 'Hortalizas',
                     description: 'el consumo de cultivos orgánicos tiene más beneficios saludables ya que no usa pesticidas y fertilizantes artificales en la producción <ul><li>Los productos orgánicos se diferencian por: </li><li>Mejor sabor y color</li><li> Aporta más minerales y vitaminas</li><li>Protege la salud de consumidores y productores </li><li>Pregunta por los productos de temporada</li></ul>',
-                    color: 'red'
+                    color: '-red',
+                    image: 'assets/imgs/hortalizas_back.jpg'
                 },
                 {
                     name: 'Cursos',
                     description: 'consulta el calendarios de cusos',
-                    color: 'blue'
+                    color: '-blue',
+                    image: 'assets/imgs/lombriz_back.jpg'
                 }
             ];
 
