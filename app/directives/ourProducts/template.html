@@ -1,7 +1,11 @@
 <div class="row wrapProcess">
 	<p class="titleSeccion">NUESTROS PRODUCTOS</p>
 	<div ng-repeat="product in products" class="col-md-3 col-sm-3 col-xs-3 square" ng-click="$parent.product = product; open('md')">
-		<div class="card {{product.color}}">{{product.name}}</div>
+		<img src="{{product.image}}" alt="">
+		<div class="card {{product.color}}">
+			<div class="wrap">{{product.name}}</div>
+			<span>solido | lixiviado</span>
+		</div>
 	</div>
 
 <script type="text/ng-template" id="myModalContent.html">
