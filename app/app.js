@@ -17,7 +17,9 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
 })
 
 .controller('homeController', function($scope){
-    console.log($scope);
+    $scope.slides = [
+        
+    ];
 })
 
 .controller('ModalInstanceCtrl', function ($scope, $modalInstance, product) {
