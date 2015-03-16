@@ -1,5 +1,5 @@
 <div class="row slider">
-<carousel interval="myInterval">
+<carousel interval="3000">
       <slide ng-repeat="slide in slides" active="slide.active">
         <img ng-src="{{slide.image}}" style="margin:auto;">
         <div class="carousel-caption">
@@ -8,7 +8,6 @@
         </div>
       </slide>
     </carousel>
-	<img src="assets/imgs/slide1.jpg" alt="">
 </div>
 <article>
 	<our-products></our-products>
