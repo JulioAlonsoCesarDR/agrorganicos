@@ -18,7 +18,10 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
 
 .controller('homeController', function($scope){
     $scope.slides = [
-        
+        {image: 'assets/imgs/slide1.jpg'},
+        {image: 'assets/imgs/slide2.jpg'},
+        {image: 'assets/imgs/slide3.jpg'},
+        {image: 'assets/imgs/slide4.jpg'}
     ];
 })
 

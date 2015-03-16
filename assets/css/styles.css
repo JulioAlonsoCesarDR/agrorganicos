@@ -204,6 +204,34 @@ article .row {
     color: #fff;
 }
 
+.carousel-caption, .carousel-indicators, .left.carousel-control {
+    display: none;
+}
+
+.right.carousel-control {
+    opacity: 1;
+    background-image: none;
+}
+
+.right.carousel-control .glyphicon-chevron-right {
+    position: relative;
+    top: 190px;
+    right: -45px;
+    padding: 50px 35px;
+    background: #231f20;
+    opacity: 1;
+}
+
+.right.carousel-control .glyphicon-chevron-right:before {
+    content: '';
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    background-image: url('/assets/imgs/right_row.jpg');
+    width: 36px;
+    height: 68px;
+}
+
 .practicalUses .card {
     background: #fafafa;
     height: 100px;
