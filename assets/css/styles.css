@@ -45,6 +45,8 @@ header
 
 .rotate
 {
+    top: -5px;
+    position: relative;
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -o-transition-duration: 0.8s;
@@ -98,7 +100,7 @@ header
     line-height: 1px;
     color: #408860;
     position: relative;
-    left: 86px;
+    left: 100px;
     top: -60px;
     font-size: 27px;
     font-weight: bold;
@@ -153,12 +155,12 @@ p.prox
 }
 
 article .row {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .wrapProcess .square {
     padding: 10px;
-    max-height: 350px;
+    /*max-height: 350px;*/
 }
 
 .wrapProcess .square > .card {
@@ -199,6 +201,12 @@ article .row {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     color: #fff;
+}
+
+.wrapProcess .dataText {
+    margin-top: -40px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 .carousel-caption, .carousel-indicators, .left.carousel-control {
