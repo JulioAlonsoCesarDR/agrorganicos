@@ -28,7 +28,7 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
 
     $timeout(function () {
         $scope.hs = true;
-    }, 500);
+    }, 200);
 })
 
 .controller('ModalInstanceCtrl', function ($scope, $modalInstance, product) {
