@@ -131,7 +131,6 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
 .slider
 {
     margin-top: 132px;
-    opacity: 0;
 }
 
 .slider img
