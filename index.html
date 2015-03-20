@@ -14,7 +14,7 @@
 	<body>
 		<div class="container">
 			<header ng-controller="headerController">
-				<div class="row socialMedia"></div>
+				<div class="row"></div>
 				<div class="row logoNav">
 					<div class="col-md-10 col-sm-10 col-xs-10" style="max-height: 79px;">
 						<agr-logo></agr-logo>
@@ -30,6 +30,8 @@
 							<li><a href="#">Tips y recetas</a></li>
 							<li>
 								<div class="container-social">
+				<div class="row socialMedia">
+						<div class="container-social">
 							<button class="ribbon googleplus">
 								<span class="entypo-gplus"></span>
 							</button>
@@ -41,6 +43,22 @@
 								<span class="entypo-twitter"></span>
 							</button>
 						</div>
+				</div>
+				<div class="row logoNav">
+					<div class="col-md-4 col-sm-4 col-xs-4" style="max-height: 79px;">
+						<agr-logo></agr-logo>
+						<b class="logoTitle">AGRORGANICOS<br>
+							<span>DEVOLVIENDO A LA TIERRA SUS NUTRIENTES</span>
+						</b>
+					</div>
+					<div class="col-md-8 col-sm-8 col-xs-8">
+
+						<ul class="nav nav-pills pull-right">
+							<li ng-class="{'active': path == '/'}"><a href="/">Home</a></li>
+							<li ng-class="{'active': path == '/nosotros'}"><a href="/nosotros">Nosotros</a></li>
+							<li ng-class="{'active': path == '/tips-y-recetas'}"><a href="/tips-y-recetas">Tips y recetas</a></li>
+							<li class="socialTwo">
+								
 							</li>
 						</ul>
 					</div>
@@ -114,10 +132,10 @@
 				//$(".slider").animate({opacity:1});
 			});
 
-			$(window).scroll(function() {
+			/*$(window).scroll(function() {
 				if($(this).scrollTop() > 132) $(".socialMedia").addClass("socialDis");
 				else $(".socialMedia").stop().removeClass('socialDis');
-			});
+			});*/
 
 		</script>
 
