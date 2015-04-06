@@ -338,6 +338,15 @@ footer {
     opacity: 0.5;
 }
 
+/* css Nosotros*/
+.HistoriaData h2, h4{
+text-align: left;
+}
+ul.liVi{
+  text-align: left;
+  list-style-type: disc;  
+}
+
 /* entypo */
 
 @charset "UTF-8";
