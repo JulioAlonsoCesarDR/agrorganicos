@@ -32,10 +32,7 @@ ul {
     list-style: none;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
-and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait)
-{
- header 
+header 
 {
     position:fixed;
     left: 0px;
@@ -44,8 +41,6 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
     max-height: 132px;
     background: #fff;
     z-index: 100;
-}
-
 }
 
 .rotate
@@ -365,8 +360,6 @@ ul.liVi{
   float: right;
   padding-top: 166px;
   padding-bottom: 110px;
-
-
 
 }
 .TR.ng-scope {
