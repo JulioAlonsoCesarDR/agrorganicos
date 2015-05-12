@@ -14,9 +14,17 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
    .when('/tips-y-recetas', {
         templateUrl: 'app/views/home/tipsyrecetas.html',
         controller: 'tipsyrecetasController'
+    })
+   .when('/noticias', {
+        templateUrl: 'app/views/home/noticias.html',
+        controller: 'noticiasController'
+    })
+   .when('/noticias/:id', {
+        templateUrl: 'app/views/home/noticias_single.html',
+        controller: 'noticiasSingleController'
     });
 
-   $locationProvider.html5Mode(true);
+   $locationProvider.html5Mode(true).hashPrefix('!');
 
 }])
 
@@ -49,6 +57,19 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
 
 .controller('tipsyrecetasController', function($scope, $timeout){
 
+})
+
+.controller('noticiasController', function($scope, $http){
+    $http.get('/wp-api/wp-json/posts').success(function (res) {
+        $scope.news = res;
+    });
+})
+
+.controller('noticiasSingleController', function($scope, $http, $routeParams) {
+    $http.get('/wp-api/wp-json/posts/' + $routeParams.id).success(function (res) {
+        console.log(res);
+        $scope.new = res;
+    });
 })
 
 .controller('ModalInstanceCtrl', function ($scope, $modalInstance, product) {

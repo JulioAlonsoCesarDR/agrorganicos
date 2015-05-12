@@ -1,0 +1,5 @@
+<div class="single-new">
+	<h1>{{new.title}}</h1>
+	<p>author: {{new.author.username}} - {{new.date}}</p>
+	<div class="new-body" ng-bind-html="new.content | unsafe"></div>
+</div>
