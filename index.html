@@ -15,6 +15,8 @@
 		<div class="container">
 			<header ng-controller="headerController">
 				<div class="row socialMedia">
+						<div class="menu-button-mobile" onclick="$('.on-mobile').fadeToggle()">
+						</div>
 						<div class="container-social">
 							<button class="ribbon googleplus">
 								<a href="https://www.youtube.com/agrorganicos"><span class="entypo-gplus"></span></a>
@@ -37,7 +39,7 @@
 					</div>
 					<div class="col-md-8 col-sm-8 col-xs-8">
 
-						<ul class="nav nav-pills pull-right">
+						<ul class="nav nav-pills pull-right on-mobile">
 							<li ng-class="{'active': path == '/'}"><a href="/">Home</a></li>
 							<li ng-class="{'active': path == '/nosotros'}"><a href="/nosotros">Nosotros</a></li>
 							<li ng-class="{'active': path == '/tips-y-recetas'}"><a href="/tips-y-recetas">Tips y recetas</a></li>

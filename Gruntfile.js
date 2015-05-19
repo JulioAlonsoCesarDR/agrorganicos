@@ -5,7 +5,7 @@ module.exports = function (grunt) {
 	    php: {
 	        dist: {
 	            options: {
-	                port: 80,
+	                port: 8080,
 	                keepalive: true
 	            }
 	        }
