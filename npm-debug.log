@@ -1,0 +1,515 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json agrorganicos@1.0.0 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/home/zero/agrorganicos',
+7 verbose install   [ 'grunt',
+7 verbose install     'grunt-cli',
+7 verbose install     'grunt-php',
+7 verbose install     'grunt-ftp-deploy',
+7 verbose install     'load-grunt-tasks' ] ]
+8 info preinstall agrorganicos@1.0.0
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'grunt@^0.4.5', null ]
+11 verbose cache add name=undefined spec="grunt@^0.4.5" args=["grunt@^0.4.5",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'grunt@^0.4.5',
+12 verbose parsed url   path: 'grunt@^0.4.5',
+12 verbose parsed url   href: 'grunt@^0.4.5' }
+13 verbose cache add [ 'grunt-cli@^0.1.13', null ]
+14 verbose cache add name=undefined spec="grunt-cli@^0.1.13" args=["grunt-cli@^0.1.13",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'grunt-cli@^0.1.13',
+15 verbose parsed url   path: 'grunt-cli@^0.1.13',
+15 verbose parsed url   href: 'grunt-cli@^0.1.13' }
+16 verbose cache add [ 'grunt-php@^1.2.0', null ]
+17 verbose cache add name=undefined spec="grunt-php@^1.2.0" args=["grunt-php@^1.2.0",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'grunt-php@^1.2.0',
+18 verbose parsed url   path: 'grunt-php@^1.2.0',
+18 verbose parsed url   href: 'grunt-php@^1.2.0' }
+19 verbose cache add [ 'grunt-ftp-deploy@^0.1.10', null ]
+20 verbose cache add name=undefined spec="grunt-ftp-deploy@^0.1.10" args=["grunt-ftp-deploy@^0.1.10",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'grunt-ftp-deploy@^0.1.10',
+21 verbose parsed url   path: 'grunt-ftp-deploy@^0.1.10',
+21 verbose parsed url   href: 'grunt-ftp-deploy@^0.1.10' }
+22 verbose cache add [ 'load-grunt-tasks@^3.1.0', null ]
+23 verbose cache add name=undefined spec="load-grunt-tasks@^3.1.0" args=["load-grunt-tasks@^3.1.0",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'load-grunt-tasks@^3.1.0',
+24 verbose parsed url   path: 'load-grunt-tasks@^3.1.0',
+24 verbose parsed url   href: 'load-grunt-tasks@^3.1.0' }
+25 verbose cache add name="grunt" spec="^0.4.5" args=["grunt","^0.4.5"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '^0.4.5',
+26 verbose parsed url   path: '^0.4.5',
+26 verbose parsed url   href: '^0.4.5' }
+27 verbose addNamed [ 'grunt', '^0.4.5' ]
+28 verbose addNamed [ null, '>=0.4.5-0 <0.5.0-0' ]
+29 verbose cache add name="grunt-cli" spec="^0.1.13" args=["grunt-cli","^0.1.13"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '^0.1.13',
+30 verbose parsed url   path: '^0.1.13',
+30 verbose parsed url   href: '^0.1.13' }
+31 verbose addNamed [ 'grunt-cli', '^0.1.13' ]
+32 verbose addNamed [ null, '>=0.1.13-0 <0.2.0-0' ]
+33 verbose cache add name="grunt-php" spec="^1.2.0" args=["grunt-php","^1.2.0"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '^1.2.0',
+34 verbose parsed url   path: '^1.2.0',
+34 verbose parsed url   href: '^1.2.0' }
+35 verbose addNamed [ 'grunt-php', '^1.2.0' ]
+36 verbose addNamed [ null, '>=1.2.0-0 <2.0.0-0' ]
+37 verbose cache add name="grunt-ftp-deploy" spec="^0.1.10" args=["grunt-ftp-deploy","^0.1.10"]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: '^0.1.10',
+38 verbose parsed url   path: '^0.1.10',
+38 verbose parsed url   href: '^0.1.10' }
+39 verbose addNamed [ 'grunt-ftp-deploy', '^0.1.10' ]
+40 verbose addNamed [ null, '>=0.1.10-0 <0.2.0-0' ]
+41 verbose cache add name="load-grunt-tasks" spec="^3.1.0" args=["load-grunt-tasks","^3.1.0"]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: '^3.1.0',
+42 verbose parsed url   path: '^3.1.0',
+42 verbose parsed url   href: '^3.1.0' }
+43 verbose addNamed [ 'load-grunt-tasks', '^3.1.0' ]
+44 verbose addNamed [ null, '>=3.1.0-0 <4.0.0-0' ]
+45 silly lockFile 73541f84-grunt-0-4-5 grunt@^0.4.5
+46 verbose lock grunt@^0.4.5 /home/zero/.npm/73541f84-grunt-0-4-5.lock
+47 silly lockFile c776df95-grunt-cli-0-1-13 grunt-cli@^0.1.13
+48 verbose lock grunt-cli@^0.1.13 /home/zero/.npm/c776df95-grunt-cli-0-1-13.lock
+49 silly lockFile 11252ab2-grunt-php-1-2-0 grunt-php@^1.2.0
+50 verbose lock grunt-php@^1.2.0 /home/zero/.npm/11252ab2-grunt-php-1-2-0.lock
+51 silly lockFile 028c20d3-grunt-ftp-deploy-0-1-10 grunt-ftp-deploy@^0.1.10
+52 verbose lock grunt-ftp-deploy@^0.1.10 /home/zero/.npm/028c20d3-grunt-ftp-deploy-0-1-10.lock
+53 silly lockFile 244ddd56-load-grunt-tasks-3-1-0 load-grunt-tasks@^3.1.0
+54 verbose lock load-grunt-tasks@^3.1.0 /home/zero/.npm/244ddd56-load-grunt-tasks-3-1-0.lock
+55 silly addNameRange { name: 'grunt', range: '>=0.4.5-0 <0.5.0-0', hasData: false }
+56 silly addNameRange { name: 'grunt-cli',
+56 silly addNameRange   range: '>=0.1.13-0 <0.2.0-0',
+56 silly addNameRange   hasData: false }
+57 silly addNameRange { name: 'grunt-php',
+57 silly addNameRange   range: '>=1.2.0-0 <2.0.0-0',
+57 silly addNameRange   hasData: false }
+58 silly addNameRange { name: 'grunt-ftp-deploy',
+58 silly addNameRange   range: '>=0.1.10-0 <0.2.0-0',
+58 silly addNameRange   hasData: false }
+59 silly addNameRange { name: 'load-grunt-tasks',
+59 silly addNameRange   range: '>=3.1.0-0 <4.0.0-0',
+59 silly addNameRange   hasData: false }
+60 verbose request where is /grunt
+61 verbose request registry https://registry.npmjs.org/
+62 verbose request id 3bd18329d2dd6da2
+63 verbose url raw /grunt
+64 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+65 verbose url resolved https://registry.npmjs.org/grunt
+66 verbose request where is https://registry.npmjs.org/grunt
+67 info trying registry request attempt 1 at 00:12:15
+68 verbose etag "8P4QW8VVRFKMWOV6BMWWWPWLK"
+69 http GET https://registry.npmjs.org/grunt
+70 verbose request where is /grunt-cli
+71 verbose request registry https://registry.npmjs.org/
+72 verbose url raw /grunt-cli
+73 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+74 verbose url resolved https://registry.npmjs.org/grunt-cli
+75 verbose request where is https://registry.npmjs.org/grunt-cli
+76 info trying registry request attempt 1 at 00:12:15
+77 verbose etag "2EGQWGRAP4S8YYXUC3S9MFA9J"
+78 http GET https://registry.npmjs.org/grunt-cli
+79 verbose request where is /grunt-php
+80 verbose request registry https://registry.npmjs.org/
+81 verbose url raw /grunt-php
+82 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-php' ]
+83 verbose url resolved https://registry.npmjs.org/grunt-php
+84 verbose request where is https://registry.npmjs.org/grunt-php
+85 info trying registry request attempt 1 at 00:12:15
+86 verbose etag "7FWR38ZYYWJPZND770EGGPINE"
+87 http GET https://registry.npmjs.org/grunt-php
+88 verbose request where is /grunt-ftp-deploy
+89 verbose request registry https://registry.npmjs.org/
+90 verbose url raw /grunt-ftp-deploy
+91 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-ftp-deploy' ]
+92 verbose url resolved https://registry.npmjs.org/grunt-ftp-deploy
+93 verbose request where is https://registry.npmjs.org/grunt-ftp-deploy
+94 info trying registry request attempt 1 at 00:12:15
+95 verbose etag "7TYZFE6V96M1UGX4QV5D33D9T"
+96 http GET https://registry.npmjs.org/grunt-ftp-deploy
+97 verbose request where is /load-grunt-tasks
+98 verbose request registry https://registry.npmjs.org/
+99 verbose url raw /load-grunt-tasks
+100 verbose url resolving [ 'https://registry.npmjs.org/', './load-grunt-tasks' ]
+101 verbose url resolved https://registry.npmjs.org/load-grunt-tasks
+102 verbose request where is https://registry.npmjs.org/load-grunt-tasks
+103 info trying registry request attempt 1 at 00:12:17
+104 verbose etag "1SQF7H8SYPWKAYVXYHWRN61PD"
+105 http GET https://registry.npmjs.org/load-grunt-tasks
+106 http 200 https://registry.npmjs.org/grunt-cli
+107 silly registry.get cb [ 200,
+107 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+107 silly registry.get     etag: '"4HBUA280DK3DPGUL0L3ZU5BXT"',
+107 silly registry.get     'content-type': 'application/json',
+107 silly registry.get     'cache-control': 'max-age=60',
+107 silly registry.get     'content-length': '20872',
+107 silly registry.get     'accept-ranges': 'bytes',
+107 silly registry.get     date: 'Thu, 21 May 2015 05:12:18 GMT',
+107 silly registry.get     via: '1.1 varnish',
+107 silly registry.get     age: '21',
+107 silly registry.get     connection: 'keep-alive',
+107 silly registry.get     'x-served-by': 'cache-dfw1830-DFW',
+107 silly registry.get     'x-cache': 'HIT',
+107 silly registry.get     'x-cache-hits': '58',
+107 silly registry.get     'x-timer': 'S1432185138.059936,VS0,VE0',
+107 silly registry.get     vary: 'Accept' } ]
+108 silly addNameRange number 2 { name: 'grunt-cli',
+108 silly addNameRange   range: '>=0.1.13-0 <0.2.0-0',
+108 silly addNameRange   hasData: true }
+109 silly addNameRange versions [ 'grunt-cli',
+109 silly addNameRange   [ '0.1.0',
+109 silly addNameRange     '0.1.1',
+109 silly addNameRange     '0.1.2',
+109 silly addNameRange     '0.1.3',
+109 silly addNameRange     '0.1.4',
+109 silly addNameRange     '0.1.5',
+109 silly addNameRange     '0.1.6',
+109 silly addNameRange     '0.1.7',
+109 silly addNameRange     '0.1.8',
+109 silly addNameRange     '0.1.9',
+109 silly addNameRange     '0.1.10',
+109 silly addNameRange     '0.1.11',
+109 silly addNameRange     '0.1.12',
+109 silly addNameRange     '0.1.13' ] ]
+110 verbose addNamed [ 'grunt-cli', '0.1.13' ]
+111 verbose addNamed [ '0.1.13', '0.1.13' ]
+112 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+113 verbose lock grunt-cli@0.1.13 /home/zero/.npm/28997503-grunt-cli-0-1-13.lock
+114 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+115 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+116 silly lockFile c776df95-grunt-cli-0-1-13 grunt-cli@^0.1.13
+117 silly lockFile c776df95-grunt-cli-0-1-13 grunt-cli@^0.1.13
+118 http 200 https://registry.npmjs.org/grunt
+119 silly registry.get cb [ 200,
+119 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+119 silly registry.get     etag: '"9RP0MWX2KFZZUV80Q2GW24B4U"',
+119 silly registry.get     'content-type': 'application/json',
+119 silly registry.get     'cache-control': 'max-age=60',
+119 silly registry.get     'content-length': '89332',
+119 silly registry.get     'accept-ranges': 'bytes',
+119 silly registry.get     date: 'Thu, 21 May 2015 05:12:18 GMT',
+119 silly registry.get     via: '1.1 varnish',
+119 silly registry.get     age: '55',
+119 silly registry.get     connection: 'keep-alive',
+119 silly registry.get     'x-served-by': 'cache-dfw1822-DFW',
+119 silly registry.get     'x-cache': 'HIT',
+119 silly registry.get     'x-cache-hits': '2',
+119 silly registry.get     'x-timer': 'S1432185138.038048,VS0,VE0',
+119 silly registry.get     vary: 'Accept' } ]
+120 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.5-0 <0.5.0-0', hasData: true }
+121 silly addNameRange versions [ 'grunt',
+121 silly addNameRange   [ '0.1.0',
+121 silly addNameRange     '0.1.1',
+121 silly addNameRange     '0.1.2',
+121 silly addNameRange     '0.2.0',
+121 silly addNameRange     '0.2.1',
+121 silly addNameRange     '0.2.2',
+121 silly addNameRange     '0.2.3',
+121 silly addNameRange     '0.2.4',
+121 silly addNameRange     '0.2.5',
+121 silly addNameRange     '0.2.6',
+121 silly addNameRange     '0.2.7',
+121 silly addNameRange     '0.2.8',
+121 silly addNameRange     '0.2.9',
+121 silly addNameRange     '0.2.10',
+121 silly addNameRange     '0.2.11',
+121 silly addNameRange     '0.2.12',
+121 silly addNameRange     '0.2.13',
+121 silly addNameRange     '0.2.14',
+121 silly addNameRange     '0.2.15',
+121 silly addNameRange     '0.3.0',
+121 silly addNameRange     '0.3.1',
+121 silly addNameRange     '0.3.2',
+121 silly addNameRange     '0.3.3',
+121 silly addNameRange     '0.3.4',
+121 silly addNameRange     '0.3.5',
+121 silly addNameRange     '0.3.6',
+121 silly addNameRange     '0.3.7',
+121 silly addNameRange     '0.3.8',
+121 silly addNameRange     '0.3.9',
+121 silly addNameRange     '0.3.10',
+121 silly addNameRange     '0.3.11',
+121 silly addNameRange     '0.3.12',
+121 silly addNameRange     '0.3.13',
+121 silly addNameRange     '0.3.14',
+121 silly addNameRange     '0.3.15',
+121 silly addNameRange     '0.3.16',
+121 silly addNameRange     '0.3.17',
+121 silly addNameRange     '0.4.0',
+121 silly addNameRange     '0.4.1',
+121 silly addNameRange     '0.4.2',
+121 silly addNameRange     '0.4.3',
+121 silly addNameRange     '0.4.4',
+121 silly addNameRange     '0.4.5',
+121 silly addNameRange     '0.3.13-a',
+121 silly addNameRange     '0.4.0-a',
+121 silly addNameRange     '0.4.0-rc1',
+121 silly addNameRange     '0.4.0-rc2',
+121 silly addNameRange     '0.4.0-rc3',
+121 silly addNameRange     '0.4.0-rc4',
+121 silly addNameRange     '0.4.0-rc5',
+121 silly addNameRange     '0.4.0-rc6',
+121 silly addNameRange     '0.4.0-rc7',
+121 silly addNameRange     '0.4.0-rc8' ] ]
+122 verbose addNamed [ 'grunt', '0.4.5' ]
+123 verbose addNamed [ '0.4.5', '0.4.5' ]
+124 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+125 verbose lock grunt@0.4.5 /home/zero/.npm/81abf7ad-grunt-0-4-5.lock
+126 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+127 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+128 silly lockFile 73541f84-grunt-0-4-5 grunt@^0.4.5
+129 silly lockFile 73541f84-grunt-0-4-5 grunt@^0.4.5
+130 http 200 https://registry.npmjs.org/load-grunt-tasks
+131 silly registry.get cb [ 200,
+131 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+131 silly registry.get     etag: '"BIBTTFFX9GIQJ84K2C5XTRJBB"',
+131 silly registry.get     'content-type': 'application/json',
+131 silly registry.get     'cache-control': 'max-age=60',
+131 silly registry.get     'content-length': '21665',
+131 silly registry.get     'accept-ranges': 'bytes',
+131 silly registry.get     date: 'Thu, 21 May 2015 05:12:18 GMT',
+131 silly registry.get     via: '1.1 varnish',
+131 silly registry.get     age: '8',
+131 silly registry.get     connection: 'keep-alive',
+131 silly registry.get     'x-served-by': 'cache-dfw1824-DFW',
+131 silly registry.get     'x-cache': 'HIT',
+131 silly registry.get     'x-cache-hits': '1',
+131 silly registry.get     'x-timer': 'S1432185138.309767,VS0,VE0',
+131 silly registry.get     vary: 'Accept' } ]
+132 silly addNameRange number 2 { name: 'load-grunt-tasks',
+132 silly addNameRange   range: '>=3.1.0-0 <4.0.0-0',
+132 silly addNameRange   hasData: true }
+133 silly addNameRange versions [ 'load-grunt-tasks',
+133 silly addNameRange   [ '0.1.0',
+133 silly addNameRange     '0.1.1',
+133 silly addNameRange     '0.1.2',
+133 silly addNameRange     '0.1.3',
+133 silly addNameRange     '0.2.0',
+133 silly addNameRange     '0.2.1',
+133 silly addNameRange     '0.3.0',
+133 silly addNameRange     '0.4.0',
+133 silly addNameRange     '0.5.0',
+133 silly addNameRange     '0.6.0',
+133 silly addNameRange     '1.0.0',
+133 silly addNameRange     '2.0.0',
+133 silly addNameRange     '3.0.0',
+133 silly addNameRange     '3.1.0' ] ]
+134 verbose addNamed [ 'load-grunt-tasks', '3.1.0' ]
+135 verbose addNamed [ '3.1.0', '3.1.0' ]
+136 silly lockFile afccba54-load-grunt-tasks-3-1-0 load-grunt-tasks@3.1.0
+137 verbose lock load-grunt-tasks@3.1.0 /home/zero/.npm/afccba54-load-grunt-tasks-3-1-0.lock
+138 http 200 https://registry.npmjs.org/grunt-php
+139 silly registry.get cb [ 200,
+139 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+139 silly registry.get     etag: '"HZKCMRVM7VT97FVISPHZ6E1K"',
+139 silly registry.get     'content-type': 'application/json',
+139 silly registry.get     'cache-control': 'max-age=60',
+139 silly registry.get     'content-length': '26012',
+139 silly registry.get     'accept-ranges': 'bytes',
+139 silly registry.get     date: 'Thu, 21 May 2015 05:12:18 GMT',
+139 silly registry.get     via: '1.1 varnish',
+139 silly registry.get     age: '0',
+139 silly registry.get     connection: 'keep-alive',
+139 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+139 silly registry.get     'x-cache': 'MISS',
+139 silly registry.get     'x-cache-hits': '0',
+139 silly registry.get     'x-timer': 'S1432185138.038385,VS0,VE273',
+139 silly registry.get     vary: 'Accept' } ]
+140 silly addNameRange number 2 { name: 'grunt-php', range: '>=1.2.0-0 <2.0.0-0', hasData: true }
+141 silly addNameRange versions [ 'grunt-php',
+141 silly addNameRange   [ '0.1.0',
+141 silly addNameRange     '0.1.1',
+141 silly addNameRange     '0.2.0',
+141 silly addNameRange     '0.3.0',
+141 silly addNameRange     '0.3.1',
+141 silly addNameRange     '0.3.2',
+141 silly addNameRange     '0.3.3',
+141 silly addNameRange     '0.3.4',
+141 silly addNameRange     '0.4.0',
+141 silly addNameRange     '1.0.0',
+141 silly addNameRange     '1.0.1',
+141 silly addNameRange     '1.1.0',
+141 silly addNameRange     '1.1.1',
+141 silly addNameRange     '1.2.0',
+141 silly addNameRange     '1.3.0',
+141 silly addNameRange     '1.4.0',
+141 silly addNameRange     '1.5.0' ] ]
+142 verbose addNamed [ 'grunt-php', '1.5.0' ]
+143 verbose addNamed [ '1.5.0', '1.5.0' ]
+144 silly lockFile fc357a1a-grunt-php-1-5-0 grunt-php@1.5.0
+145 verbose lock grunt-php@1.5.0 /home/zero/.npm/fc357a1a-grunt-php-1-5-0.lock
+146 silly lockFile 9c8c50f6-rg-grunt-php-grunt-php-1-5-0-tgz https://registry.npmjs.org/grunt-php/-/grunt-php-1.5.0.tgz
+147 verbose lock https://registry.npmjs.org/grunt-php/-/grunt-php-1.5.0.tgz /home/zero/.npm/9c8c50f6-rg-grunt-php-grunt-php-1-5-0-tgz.lock
+148 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-php/-/grunt-php-1.5.0.tgz',
+148 verbose addRemoteTarball   'f089c637f54a4a4bd80d9d96627339d702beaae4' ]
+149 info retry fetch attempt 1 at 00:12:18
+150 verbose fetch to= /tmp/npm-3148-09g6BoSk/registry.npmjs.org/grunt-php/-/grunt-php-1.5.0.tgz
+151 http GET https://registry.npmjs.org/grunt-php/-/grunt-php-1.5.0.tgz
+152 silly lockFile afccba54-load-grunt-tasks-3-1-0 load-grunt-tasks@3.1.0
+153 silly lockFile afccba54-load-grunt-tasks-3-1-0 load-grunt-tasks@3.1.0
+154 silly lockFile 244ddd56-load-grunt-tasks-3-1-0 load-grunt-tasks@^3.1.0
+155 silly lockFile 244ddd56-load-grunt-tasks-3-1-0 load-grunt-tasks@^3.1.0
+156 http 200 https://registry.npmjs.org/grunt-ftp-deploy
+157 silly registry.get cb [ 200,
+157 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+157 silly registry.get     etag: '"CSJPGYLTML2QDZ4TJ4WDEGZ6V"',
+157 silly registry.get     'content-type': 'application/json',
+157 silly registry.get     'cache-control': 'max-age=60',
+157 silly registry.get     'content-length': '27203',
+157 silly registry.get     'accept-ranges': 'bytes',
+157 silly registry.get     date: 'Thu, 21 May 2015 05:12:18 GMT',
+157 silly registry.get     via: '1.1 varnish',
+157 silly registry.get     age: '0',
+157 silly registry.get     connection: 'keep-alive',
+157 silly registry.get     'x-served-by': 'cache-dfw1825-DFW',
+157 silly registry.get     'x-cache': 'MISS',
+157 silly registry.get     'x-cache-hits': '0',
+157 silly registry.get     'x-timer': 'S1432185138.309774,VS0,VE231',
+157 silly registry.get     vary: 'Accept' } ]
+158 silly addNameRange number 2 { name: 'grunt-ftp-deploy',
+158 silly addNameRange   range: '>=0.1.10-0 <0.2.0-0',
+158 silly addNameRange   hasData: true }
+159 silly addNameRange versions [ 'grunt-ftp-deploy',
+159 silly addNameRange   [ '0.0.1',
+159 silly addNameRange     '0.0.2',
+159 silly addNameRange     '0.0.3',
+159 silly addNameRange     '0.0.4',
+159 silly addNameRange     '0.0.5',
+159 silly addNameRange     '0.0.6',
+159 silly addNameRange     '0.0.7',
+159 silly addNameRange     '0.0.8',
+159 silly addNameRange     '0.0.9',
+159 silly addNameRange     '0.0.10',
+159 silly addNameRange     '0.1.1',
+159 silly addNameRange     '0.1.2',
+159 silly addNameRange     '0.1.3',
+159 silly addNameRange     '0.1.4',
+159 silly addNameRange     '0.1.5',
+159 silly addNameRange     '0.1.6',
+159 silly addNameRange     '0.1.7',
+159 silly addNameRange     '0.1.8',
+159 silly addNameRange     '0.1.9',
+159 silly addNameRange     '0.1.10' ] ]
+160 verbose addNamed [ 'grunt-ftp-deploy', '0.1.10' ]
+161 verbose addNamed [ '0.1.10', '0.1.10' ]
+162 silly lockFile 76091078-grunt-ftp-deploy-0-1-10 grunt-ftp-deploy@0.1.10
+163 verbose lock grunt-ftp-deploy@0.1.10 /home/zero/.npm/76091078-grunt-ftp-deploy-0-1-10.lock
+164 silly lockFile 76091078-grunt-ftp-deploy-0-1-10 grunt-ftp-deploy@0.1.10
+165 silly lockFile 76091078-grunt-ftp-deploy-0-1-10 grunt-ftp-deploy@0.1.10
+166 silly lockFile 028c20d3-grunt-ftp-deploy-0-1-10 grunt-ftp-deploy@^0.1.10
+167 silly lockFile 028c20d3-grunt-ftp-deploy-0-1-10 grunt-ftp-deploy@^0.1.10
+168 http 200 https://registry.npmjs.org/grunt-php/-/grunt-php-1.5.0.tgz
+169 silly lockFile 9c8c50f6-rg-grunt-php-grunt-php-1-5-0-tgz https://registry.npmjs.org/grunt-php/-/grunt-php-1.5.0.tgz
+170 silly lockFile 9c8c50f6-rg-grunt-php-grunt-php-1-5-0-tgz https://registry.npmjs.org/grunt-php/-/grunt-php-1.5.0.tgz
+171 silly lockFile fc357a1a-grunt-php-1-5-0 grunt-php@1.5.0
+172 silly lockFile fc357a1a-grunt-php-1-5-0 grunt-php@1.5.0
+173 silly lockFile 11252ab2-grunt-php-1-2-0 grunt-php@^1.2.0
+174 silly lockFile 11252ab2-grunt-php-1-2-0 grunt-php@^1.2.0
+175 error Error: EACCES, mkdir '/home/zero/.npm/grunt-php/1.5.0'
+175 error  { [Error: EACCES, mkdir '/home/zero/.npm/grunt-php/1.5.0']
+175 error   errno: 3,
+175 error   code: 'EACCES',
+175 error   path: '/home/zero/.npm/grunt-php/1.5.0',
+175 error   parent: 'agrorganicos' }
+176 error Please try running this command again as root/Administrator.
+177 error System Linux 3.16.0-37-generic
+178 error command "/usr/bin/node" "/usr/bin/npm" "install"
+179 error cwd /home/zero/agrorganicos
+180 error node -v v0.10.37
+181 error npm -v 1.4.28
+182 error path /home/zero/.npm/grunt-php/1.5.0
+183 error code EACCES
+184 error errno 3
+185 error stack Error: EACCES, mkdir '/home/zero/.npm/grunt-php/1.5.0'
+186 verbose exit [ 3, true ]
