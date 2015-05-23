@@ -668,7 +668,7 @@ z-index: 1000}
     }
 /*Style responsive nosotros*/
     .nosotros {
-      width: 100%;
+      width: 97%;
       text-align: justify;
     }
 
@@ -676,11 +676,11 @@ z-index: 1000}
         font-size: small;
     }
     .HistoriaData h2, h4 {
-      text-align: left;
+      text-align: justify;
       font-size: medium;
     }
     ul.liVi{
-      text-align: left;
+      text-align: justify;
       list-style-type: disc;  
     }
     .nosotros img {
@@ -690,32 +690,38 @@ z-index: 1000}
 
     .tips {
         
-      width: 50%;
-      position: relative;
-      margin-left: 91px;
-      padding-bottom: 13px;
+        width: 62%;
+        position: relative;
+        margin-left: 91px;
+        padding-bottom: 13px;
+        text-align: justify;
+        font-size: smaller;
+
     }
 
-    .tips img {
-      height: 168px;
+    img.tipsimg {
+      height: 218px;
     }
 
     .receta {
       width: 56%;
-      padding-top: 0px;
+      padding-top: 65px;
       padding-bottom: 110px;
       margin-left: 98px;
+      text-align: justify;
+      font-size: smaller;
+
     }
-    .tips h2 {
+    .TR h2 {
       font-size: medium;
     }
 
-    .nopal {
+   img.nopal {
       right: 0px;
-      top: 1007px;
+      top: 845px;
       position: absolute;
       float: right;
-      height: 361px;
+      height: 365px;
       z-index: -1;
     }
 
