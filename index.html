@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html ng-app="agrorganicos">
 	<head>
-		<meta property="og:image" content="http://zoraba.mx/agrorganicos/assets/imgs/logoNew.png"/>
+		<meta property="og:image" content="assets/imgs/logoNew.png"/>
 		<meta property="og:title" content="Agrorganicos">
-		<link rel="stylesheet" href="http://zoraba.mx/agrorganicos/bower_components/bootstrap/dist/css/bootstrap.css">
-		<link rel="stylesheet" href="http://zoraba.mx/agrorganicos/assets/css/styles.css">
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/styles.css">
 		<title>Agrorganicos, Zoraba</title>
-		<base href="/agrorganicos">
+		<base href="/agrorganicos/">
 		<meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,10 +39,11 @@
 					<div class="col-md-8 col-sm-8 col-xs-8">
 
 						<ul class="nav nav-pills pull-right on-mobile">
-							<li ng-class="{'active': path == '/'}"><a href="/">Home</a></li>
-							<li ng-class="{'active': path == '/nosotros'}"><a href="/nosotros">Nosotros</a></li>
-							<li ng-class="{'active': path == '/tips-y-recetas'}"><a href="/tips-y-recetas">Tips y recetas</a></li>
-							<li ng-class="{'active': path == '/noticias'}"><a href="/noticias">Noticias</a></li>
+							<li ng-class="{'active': path == '/'}"><a href="#/">Home</a></li>
+							<li ng-class="{'active': path == '/nosotros'}"><a href="#/nosotros">Nosotros</a></li>
+							<li ng-class="{'active': path == '/tips-y-recetas'}"><a href="#/tips-y-recetas">Tips y recetas</a></li>
+							<li ng-class="{'active': path == '/noticias'}"><a href="#/noticias">Noticias</a></li>
+							<li ng-class="{'active': path == '/tienda'}"><a href="#/tienda">tienda</a></li>
 							<li class="socialTwo">
 								
 							</li>
@@ -78,7 +79,7 @@ Nuestros productos orgánicos tienen mejor sabor y color, aportan más minerales
 				<aside class="parners">
 					<p class="titleSeccion">Amigos de Agrorganicos</p>
 					<div class="row">
-						<img src="http://zoraba.mx/agrorganicos/assets/imgs/partnersMock.jpg" style="width:100%" alt="">
+						<img src="assets/imgs/partnersMock.jpg" style="width:100%" alt="">
 					</div>
 				</aside>
 			</section>
@@ -113,7 +114,7 @@ Nuestros productos orgánicos tienen mejor sabor y color, aportan más minerales
 							<li>Nº 240, MEX DF</li>
 							<li> <br> </li>
 							<li> <br> </li>
-							<li><img src="http://zoraba.mx/agrorganicos/assets/imgs/socialFooter.jpg" alt=""></li>
+							<li><img src="assets/imgs/socialFooter.jpg" alt=""></li>
 						</ul>
 					</div>
 				</div>
@@ -125,12 +126,12 @@ Nuestros productos orgánicos tienen mejor sabor y color, aportan más minerales
 					</div>
 				</div>
 			</footer>
-		<script src="http://zoraba.mx/agrorganicos/bower_components/jquery/dist/jquery.js"></script>
-		<script src="http://zoraba.mx/agrorganicos/bower_components/angular/angular.js"></script>
-		<script src="http://zoraba.mx/agrorganicos/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-		<script src="http://zoraba.mx/agrorganicos/bower_components/angular-bootstrap/ui-bootstrap.js"></script>
-		<script src="http://zoraba.mx/agrorganicos/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-		<script src="http://zoraba.mx/agrorganicos/bower_components/angular-route/angular-route.js"></script>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+		<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
 		<script>
 
 			$(window).load(function(){
@@ -144,6 +145,6 @@ Nuestros productos orgánicos tienen mejor sabor y color, aportan más minerales
 
 		</script>
 
-		<script src="http://zoraba.mx/agrorganicos/app/app.js"></script>
+		<script src="app/app.js"></script>
 	</body>
 </html>

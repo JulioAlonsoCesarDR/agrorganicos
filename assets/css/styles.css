@@ -630,6 +630,7 @@ z-index: 1000}
 
     .rotate {
         transform: scale(0.4);
+        -webkit-transform: scale(0.4);
         top: -31px;
     }
 
@@ -659,5 +660,10 @@ z-index: 1000}
         top: 71px;
         right: 2px;
         transform: scale(0.5);
+    }
+
+    .rotate:hover {
+        transform: scale(0.4);
+        -webkit-transform: scale(0.4);
     }
 }
