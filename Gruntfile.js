@@ -6,7 +6,8 @@ module.exports = function (grunt) {
 	        dist: {
 	            options: {
 	                port: 8080,
-	                keepalive: true
+	                keepalive: true, 
+	                base: '../agrorganicos'
 	            }
 	        }
 	    },

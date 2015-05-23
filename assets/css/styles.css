@@ -666,4 +666,57 @@ z-index: 1000}
         transform: scale(0.4);
         -webkit-transform: scale(0.4);
     }
+/*Style responsive nosotros*/
+    .nosotros {
+      width: 100%;
+      text-align: justify;
+    }
+
+    .HistoriaData{
+        font-size: small;
+    }
+    .HistoriaData h2, h4 {
+      text-align: left;
+      font-size: medium;
+    }
+    ul.liVi{
+      text-align: left;
+      list-style-type: disc;  
+    }
+    .nosotros img {
+          width: 340px;
+    }
+    /*Style responsive tips*/
+
+    .tips {
+        
+      width: 50%;
+      position: relative;
+      margin-left: 91px;
+      padding-bottom: 13px;
+    }
+
+    .tips img {
+      height: 168px;
+    }
+
+    .receta {
+      width: 56%;
+      padding-top: 0px;
+      padding-bottom: 110px;
+      margin-left: 98px;
+    }
+    .tips h2 {
+      font-size: medium;
+    }
+
+    .nopal {
+      right: 0px;
+      top: 1007px;
+      position: absolute;
+      float: right;
+      height: 361px;
+      z-index: -1;
+    }
+
 }
