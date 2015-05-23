@@ -593,6 +593,61 @@ z-index: 1000}
     only screen and (max-device-width: 667px), 
     only screen and (max-width: 480px)
 { 
+    /*css Nosotros*/
+    .nosotros {
+          width: 100%;
+          text-align: justify;
+    }
+
+    .HistoriaData{
+        font-size: small;
+    }
+    .HistoriaData h2, h4 {
+      text-align: left;
+      font-size: medium;
+    }
+    ul.liVi{
+      text-align: left;
+      list-style-type: disc;  
+    }
+    .nosotros img {
+          width: 340px;
+    }
+
+
+    .tips {
+      
+       
+      width: 50%;
+      position: relative;
+      margin-left: 91px;
+      padding-bottom: 13px;
+    }
+
+    img.tips {
+      height: 168px;
+    }
+    /*css tips&recetas*/
+    .receta {
+      width: 56%;
+      /* float: right; */
+      padding-top: 0px;
+      padding-bottom: 110px;
+      margin-left: 98px;
+    }
+    h2.tips {
+      font-size: medium;
+    }
+
+    .nopal {
+      right: 0px;
+      top: 1007px;
+      position: absolute;
+      float: right;
+      height: 361px;
+      z-index: -1;
+    }
+
     .menu-button-mobile {
         display: block;
         float: left;
