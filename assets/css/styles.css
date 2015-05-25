@@ -198,6 +198,8 @@ article .row {
 
 .wrapProcess .square > img {
     width: 100%;
+    max-width: 273px;
+    max-height: 210px;
 }
 
 [ng-repeat="product in products"]:hover {
@@ -213,6 +215,10 @@ article .row {
     margin-top: -40px;
     margin-bottom: 10px;
     text-align: left;
+}
+
+.wrapProcess .dataText div {
+    font-size: 15px;
 }
 
 .carousel-caption, .carousel-indicators, .left.carousel-control {

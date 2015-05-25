@@ -120,7 +120,7 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
             $scope.products = [
                 {
                     name: 'Humus',
-                    description: 'Es el resultado de la descomposición  de la materia orgánica por la acción digestiva de la lombriz, alguno de sus beneficios son: <ul><li>Mejora de la fertilidad del suelo</li><li>Retiene agua y minerales</li><li> Aporta nitrógeno, fósforo, potasio, magnesio, etc.</li><li>Potencializa el crecimiento de las plantas </li></ul>',
+                    description: 'Es el resultado de la descomposición  de la materia orgánica por la acción digestiva de la lombriz, alguno de sus beneficios son: <br> <ol><li>Mejora de la fertilidad del suelo</li><li>Retiene agua y minerales</li><li> Aporta nitrógeno, fósforo, potasio, magnesio, etc.</li><li>Potencializa el crecimiento de las plantas </li></ol>',
                     color: '-green',
                     image: 'assets/imgs/hummus_back.jpg',
                     text: 'Este abono orgánico proviene de la descomposición de materia orgánica por la acción digestiva de la lombriz. Mejora la fertilidad del suelo,  retiene agua y minerales, aporta nitrógeno, fósforo, potasio, magnesio; potencializa el crecimiento de las plantas. Presentación sólida de 2 kg y líquida (lixiviado).',
@@ -140,7 +140,7 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
                     color: '-red',
                     image: 'assets/imgs/hortalizas_back.jpg',
                     text:'Lombriz roja californiana (Lumbricus rubellus) es la más usada por su reproduccion, alimentación, secreción y docilidad. Favorece la fertilidad de la tierra.Proporciona permeabilidad para el aire y para el agua.Aumenta la retención de agua y la capacidad de almacenar y liberar los nutrientes.',
-                    subtitle: ''
+                    subtitle: 'plántula | producto terminado'
                    
                 },
                 {
@@ -149,7 +149,7 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
                     color: '-blue',
                     image: 'assets/imgs/lombriz_back.jpg',
                     text:'Nuestros productos orgánicos tienen mejor sabor y color, aportan más minerales y vitaminas.Tenemos desde germinados o plántulas hasta el  producto terminado. Rábano, cebolla, chile serrano, espinaca, lechuga, acelga. Pregunta por los productos de temporada. ',
-                    subtitle: 'plántula | producto terminado'
+                    subtitle: '-'
                 }
             ];
 
