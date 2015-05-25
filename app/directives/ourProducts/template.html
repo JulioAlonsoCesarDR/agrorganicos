@@ -6,9 +6,9 @@
 			<div class="wrap">{{product.name}}</div>
 			<span>{{product.subtitle}}</span>
 		</div>
-
+ 
 		<div class ="dataText">
-			<h4>{{product.text}}</h4>
+			<div ng-bind-html="product.description | unsafe"></div>
 		</div>
 	</div>
 
