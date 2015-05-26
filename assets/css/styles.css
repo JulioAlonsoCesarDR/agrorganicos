@@ -730,5 +730,19 @@ z-index: 1000}
       height: 365px;
       z-index: -1;
     }
+.finalFooter {
+    background: #353535;
+    color: #b8b8b8;
+    height: 80px;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+}
+
+.finalFooter span {
+    font-size: 45px;
+    opacity: 0.5;
+}
 
 }
