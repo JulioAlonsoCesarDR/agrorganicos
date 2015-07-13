@@ -139,7 +139,7 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
                     description: 'el consumo de cultivos orgánicos tiene más beneficios saludables ya que no usa pesticidas y fertilizantes artificales en la producción <ul><li>Los productos orgánicos se diferencian por: </li><li>Mejor sabor y color</li><li> Aporta más minerales y vitaminas</li><li>Protege la salud de consumidores y productores </li><li>Pregunta por los productos de temporada</li></ul>',
                     color: '-red',
                     image: 'assets/imgs/hortalizas_back.jpg',
-                    text:'Lombriz roja californiana (Lumbricus rubellus) es la más usada por su reproduccion, alimentación, secreción y docilidad. Favorece la fertilidad de la tierra.Proporciona permeabilidad para el aire y para el agua.Aumenta la retención de agua y la capacidad de almacenar y liberar los nutrientes.',
+                    text:'Nuestros productos orgánicos tienen mejor sabor y color, aportan más minerales y vitaminas.Tenemos desde germinados o plántulas hasta el  producto terminado. Rábano, cebolla, chile serrano, espinaca, lechuga, acelga. Pregunta por los productos de temporada.',
                     subtitle: 'plántula | producto terminado'
                    
                 },
@@ -148,7 +148,7 @@ angular.module('agrorganicos', ['ngRoute', 'ui.bootstrap'])
                     description: 'consulta el calendarios de cusos',
                     color: '-blue',
                     image: 'assets/imgs/lombriz_back.jpg',
-                    text:'Nuestros productos orgánicos tienen mejor sabor y color, aportan más minerales y vitaminas.Tenemos desde germinados o plántulas hasta el  producto terminado. Rábano, cebolla, chile serrano, espinaca, lechuga, acelga. Pregunta por los productos de temporada. ',
+                    text:'Lombriz roja californiana (Lumbricus rubellus) es la más usada por su reproduccion, alimentación, secreción y docilidad. Favorece la fertilidad de la tierra.Proporciona permeabilidad para el aire y para el agua.Aumenta la retención de agua y la capacidad de almacenar y liberar los nutrientes.',
                     subtitle: '-'
                 }
             ];
